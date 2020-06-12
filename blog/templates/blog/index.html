@@ -1,0 +1,369 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+    <title>Parent's Day</title>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <link rel="stylesheet" type="text/css"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script type="text/javascript"
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <style>
+        .carousel-item {
+            height: 100vh;
+            min-height: 350px;
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        body {
+            font-family: 'Yeon Sung', cursive;
+        }
+        .card-body>img {
+            display: block;
+        }
+
+        .d-block>img {
+            padding: 3px;
+            transition: transform .2s;
+            width: 200px;
+            height: 160px;
+            margin: 0 auto;
+
+        }
+
+        .d-block>img:hover {
+            transform: scale(1.3);
+        }
+        .col-md-8>p {
+            font-size: 1.5rem;
+        }
+
+
+    </style>
+</head>
+
+<body>
+<header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active"
+                 style="background-image: url('https://unsplash.com/photos/xCxpOUeXh_0/download?force=true')">
+                <div class="carousel-caption d-md-block">
+                    <h2 class="display-4">어버이날을 맞이하여</h2>
+                    <p class="lead">On Parents' Day</p>
+                </div>
+            </div>
+            <div class="carousel-item"
+                 style="background-image: url('https://unsplash.com/photos/8pc38u-LCjs/download?force=true')">
+                <div class="carousel-caption d-md-block">
+                    <h2 class="display-4">권 벽환, 김 미옥 부모님께</h2>
+                    <p class="lead">To my parents</p>
+                </div>
+            </div>
+            <div class="carousel-item"
+                 style="background-image: url('https://unsplash.com/photos/ZLTlHeKbh04/download?force=true')">
+                <div class="carousel-caption d-md-block">
+                    <h2 class="display-4">큰 감사와 사랑을 전합니다.</h2>
+                    <p class="lead">I give BIG gratitude and love.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</header>
+
+
+<section class="py-5">
+    <div class="container">
+        <div class="my-3 p-3 bg-white rounded shadow-sm">
+            <h1 class="font-weight-light text-center text-lg-left my-4">
+                새겨요~
+                <svg class="bi bi-heart-fill" width="0.8em" height="0.8em" viewBox="0 0 16 16" fill="currentColor"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                          d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
+                          clip-rule="evenodd"/>
+                </svg>
+            </h1>
+            <hr class="mt-2 mb-5">
+
+            <div class="media pt-3 my-3">
+                <svg class="bi bi-chat-square-quote-fill mr-2 mt-1" width="24" height="24" viewBox="0 0 16 16"
+                     fill="currentColor"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                          d="M0 2a2 2 0 012-2h12a2 2 0 012 2v8a2 2 0 01-2 2h-2.5a1 1 0 00-.8.4l-1.9 2.533a1 1 0 01-1.6 0L5.3 12.4a1 1 0 00-.8-.4H2a2 2 0 01-2-2V2zm7.194 2.766c.087.124.163.26.227.401.428.948.393 2.377-.942 3.706a.446.446 0 01-.612.01.405.405 0 01-.011-.59c.419-.416.672-.831.809-1.22-.269.165-.588.26-.93.26C4.775 7.333 4 6.587 4 5.667 4 4.747 4.776 4 5.734 4c.271 0 .528.06.756.166l.008.004c.169.07.327.182.469.324.085.083.161.174.227.272zM11 7.073c-.269.165-.588.26-.93.26-.958 0-1.735-.746-1.735-1.666 0-.92.777-1.667 1.734-1.667.271 0 .528.06.756.166l.008.004c.17.07.327.182.469.324.085.083.161.174.227.272.087.124.164.26.228.401.428.948.392 2.377-.942 3.706a.446.446 0 01-.613.01.405.405 0 01-.011-.59c.42-.416.672-.831.81-1.22z"
+                          clip-rule="evenodd"/>
+                </svg>
+                <p class="media-body pb-3 border-bottom border-gray font-italic text-monospace">
+                    어머니는 우리의 마음속에 얼을 주고 아버지는 빛을 준다.
+                    <strong class="d-block text-gray-dark mt-2">장 파울</strong>
+                </p>
+            </div>
+            <div class="media pt-3 my-3">
+                <svg class="bi bi-chat-square-quote-fill mr-2 mt-1" width="24" height="24" viewBox="0 0 16 16"
+                     fill="currentColor"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                          d="M0 2a2 2 0 012-2h12a2 2 0 012 2v8a2 2 0 01-2 2h-2.5a1 1 0 00-.8.4l-1.9 2.533a1 1 0 01-1.6 0L5.3 12.4a1 1 0 00-.8-.4H2a2 2 0 01-2-2V2zm7.194 2.766c.087.124.163.26.227.401.428.948.393 2.377-.942 3.706a.446.446 0 01-.612.01.405.405 0 01-.011-.59c.419-.416.672-.831.809-1.22-.269.165-.588.26-.93.26C4.775 7.333 4 6.587 4 5.667 4 4.747 4.776 4 5.734 4c.271 0 .528.06.756.166l.008.004c.169.07.327.182.469.324.085.083.161.174.227.272zM11 7.073c-.269.165-.588.26-.93.26-.958 0-1.735-.746-1.735-1.666 0-.92.777-1.667 1.734-1.667.271 0 .528.06.756.166l.008.004c.17.07.327.182.469.324.085.083.161.174.227.272.087.124.164.26.228.401.428.948.392 2.377-.942 3.706a.446.446 0 01-.613.01.405.405 0 01-.011-.59c.42-.416.672-.831.81-1.22z"
+                          clip-rule="evenodd"/>
+                </svg>
+                <p class="media-body pb-3 border-bottom border-gray font-italic text-monospace">
+                    천하의 모든 물건 중에는 내 몸보다 더 소중한 것이 없다. 그런데 이 몸은 부모가 주신 것이다.
+                    <strong class="d-block text-gray-dark mt-2">율곡 이이</strong>
+                </p>
+            </div>
+            <div class="media pt-3 my-3">
+                <svg class="bi bi-chat-square-quote-fill mr-2 mt-1" width="24" height="24" viewBox="0 0 16 16"
+                     fill="currentColor"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                          d="M0 2a2 2 0 012-2h12a2 2 0 012 2v8a2 2 0 01-2 2h-2.5a1 1 0 00-.8.4l-1.9 2.533a1 1 0 01-1.6 0L5.3 12.4a1 1 0 00-.8-.4H2a2 2 0 01-2-2V2zm7.194 2.766c.087.124.163.26.227.401.428.948.393 2.377-.942 3.706a.446.446 0 01-.612.01.405.405 0 01-.011-.59c.419-.416.672-.831.809-1.22-.269.165-.588.26-.93.26C4.775 7.333 4 6.587 4 5.667 4 4.747 4.776 4 5.734 4c.271 0 .528.06.756.166l.008.004c.169.07.327.182.469.324.085.083.161.174.227.272zM11 7.073c-.269.165-.588.26-.93.26-.958 0-1.735-.746-1.735-1.666 0-.92.777-1.667 1.734-1.667.271 0 .528.06.756.166l.008.004c.17.07.327.182.469.324.085.083.161.174.227.272.087.124.164.26.228.401.428.948.392 2.377-.942 3.706a.446.446 0 01-.613.01.405.405 0 01-.011-.59c.42-.416.672-.831.81-1.22z"
+                          clip-rule="evenodd"/>
+                </svg>
+                <p class="media-body pb-3 border-bottom border-gray font-italic text-monospace">
+                    자식이 효도하면 어버이는 즐겁고, 집안이 화목하면 모든 일이 이루어진다.
+                    <strong class="d-block text-gray-dark mt-2">명심보감</strong>
+                </p>
+            </div>
+            <div class="media pt-3 my-3">
+                <svg class="bi bi-chat-square-quote-fill mr-2 mt-1" width="24" height="24" viewBox="0 0 16 16"
+                     fill="currentColor"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                          d="M0 2a2 2 0 012-2h12a2 2 0 012 2v8a2 2 0 01-2 2h-2.5a1 1 0 00-.8.4l-1.9 2.533a1 1 0 01-1.6 0L5.3 12.4a1 1 0 00-.8-.4H2a2 2 0 01-2-2V2zm7.194 2.766c.087.124.163.26.227.401.428.948.393 2.377-.942 3.706a.446.446 0 01-.612.01.405.405 0 01-.011-.59c.419-.416.672-.831.809-1.22-.269.165-.588.26-.93.26C4.775 7.333 4 6.587 4 5.667 4 4.747 4.776 4 5.734 4c.271 0 .528.06.756.166l.008.004c.169.07.327.182.469.324.085.083.161.174.227.272zM11 7.073c-.269.165-.588.26-.93.26-.958 0-1.735-.746-1.735-1.666 0-.92.777-1.667 1.734-1.667.271 0 .528.06.756.166l.008.004c.17.07.327.182.469.324.085.083.161.174.227.272.087.124.164.26.228.401.428.948.392 2.377-.942 3.706a.446.446 0 01-.613.01.405.405 0 01-.011-.59c.42-.416.672-.831.81-1.22z"
+                          clip-rule="evenodd"/>
+                </svg>
+                <p class="media-body pb-3 border-bottom border-gray font-italic text-monospace">
+                    훌륭한 부모의 슬하에 있으면 사랑에 넘치는 체험을 얻을 수 있다. 그것은 먼 훗날 노년이 되더라도 없어지지 않는다.
+                    <strong class="d-block text-gray-dark mt-2">루드비히 베토벤</strong>
+                </p>
+            </div>
+            <div class="media pt-3 my-3">
+                <svg class="bi bi-chat-square-quote-fill mr-2 mt-1" width="24" height="24" viewBox="0 0 16 16"
+                     fill="currentColor"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                          d="M0 2a2 2 0 012-2h12a2 2 0 012 2v8a2 2 0 01-2 2h-2.5a1 1 0 00-.8.4l-1.9 2.533a1 1 0 01-1.6 0L5.3 12.4a1 1 0 00-.8-.4H2a2 2 0 01-2-2V2zm7.194 2.766c.087.124.163.26.227.401.428.948.393 2.377-.942 3.706a.446.446 0 01-.612.01.405.405 0 01-.011-.59c.419-.416.672-.831.809-1.22-.269.165-.588.26-.93.26C4.775 7.333 4 6.587 4 5.667 4 4.747 4.776 4 5.734 4c.271 0 .528.06.756.166l.008.004c.169.07.327.182.469.324.085.083.161.174.227.272zM11 7.073c-.269.165-.588.26-.93.26-.958 0-1.735-.746-1.735-1.666 0-.92.777-1.667 1.734-1.667.271 0 .528.06.756.166l.008.004c.17.07.327.182.469.324.085.083.161.174.227.272.087.124.164.26.228.401.428.948.392 2.377-.942 3.706a.446.446 0 01-.613.01.405.405 0 01-.011-.59c.42-.416.672-.831.81-1.22z"
+                          clip-rule="evenodd"/>
+                </svg>
+                <p class="media-body pb-3 border-bottom border-gray font-italic text-monospace">
+                    나는 성장하는 과정에서 좋은 스승과 좋은 벗을 만나 큰 도움을 받았다. 그러나 무엇보다도 아버지로부터 받은 교훈, 그리고 모범이 가장 훌륭한 교훈이다.
+                    <strong class="d-block text-gray-dark mt-2">발포아</strong>
+                </p>
+            </div>
+            <div class="media pt-3 my-3">
+                <svg class="bi bi-chat-square-quote-fill mr-2 mt-1" width="24" height="24" viewBox="0 0 16 16"
+                     fill="currentColor"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                          d="M0 2a2 2 0 012-2h12a2 2 0 012 2v8a2 2 0 01-2 2h-2.5a1 1 0 00-.8.4l-1.9 2.533a1 1 0 01-1.6 0L5.3 12.4a1 1 0 00-.8-.4H2a2 2 0 01-2-2V2zm7.194 2.766c.087.124.163.26.227.401.428.948.393 2.377-.942 3.706a.446.446 0 01-.612.01.405.405 0 01-.011-.59c.419-.416.672-.831.809-1.22-.269.165-.588.26-.93.26C4.775 7.333 4 6.587 4 5.667 4 4.747 4.776 4 5.734 4c.271 0 .528.06.756.166l.008.004c.169.07.327.182.469.324.085.083.161.174.227.272zM11 7.073c-.269.165-.588.26-.93.26-.958 0-1.735-.746-1.735-1.666 0-.92.777-1.667 1.734-1.667.271 0 .528.06.756.166l.008.004c.17.07.327.182.469.324.085.083.161.174.227.272.087.124.164.26.228.401.428.948.392 2.377-.942 3.706a.446.446 0 01-.613.01.405.405 0 01-.011-.59c.42-.416.672-.831.81-1.22z"
+                          clip-rule="evenodd"/>
+                </svg>
+                <p class="media-body pb-3 border-bottom border-gray font-italic text-monospace">
+                    내가 성공을 했다면 오직 천사와 같은 어머니의 덕이다.
+                    <strong class="d-block text-gray-dark mt-2">에이브러햄 링컨</strong>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <div class="card border-0 shadow my-5">
+        <h1 class="font-weight-light text-center text-lg-center mt-4 mb-0">엄마</h1>
+        <div class="card-body p-3">
+            <img class="img-fluid img-thumbnail my-0 mx-auto" src="../static/images/1588818527163.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="card border-0 shadow my-5">
+        <h1 class="font-weight-light text-center text-lg-center mt-4 mb-0">아빠</h1>
+        <div class="card-body p-3">
+            <img class="img-fluid img-thumbnail my-0 mx-auto" src="../static/images/1588818525413.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+
+<section class="my-5" style="line-height: 2;">
+    <div class="container">
+        <div class="row mx-2">
+            <div class="col-md-8 mx-auto my-5 ">
+                <p>아무런 조건 없이 내가 하고싶은거 하도록 충분히 지원해주고 기다려줘서 고마워</p>
+                <p>이때까지 제대로 성과를 보여준 적이 없어 걱정 많다는거 알고 있어~ 하지만 떨어져있는 만큼 더 열심히 노력할게</p>
+                <p>빨리 멋진 개발자가 되어서 엄마, 아빠한테 제대로 된 선물과 함께 효도하고 싶어~</p>
+                <p>이 모바일 카드는 만들기 복잡하지 않았지만, 여기서 끝이 아니야 ^^ 업그레이드된 버전 2를 기대하라구~^^</p>
+                <p>예쁜 경진이, 효진이 낳아주시고 길러주셔서 너무너무 감사합니다~</p>
+                <p class="mb-0">
+                    미래의 탑 개발자 <span style="color: #e83e8c;">효진</span> 올림
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
+        <h1 class="font-weight-light text-center text-lg-left my-4">
+            사랑해요~
+            <svg class="bi bi-heart-fill" width="0.8em" height="0.8em" viewBox="0 0 16 16" fill="currentColor"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                      d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
+                      clip-rule="evenodd"/>
+            </svg>
+        </h1>
+
+        <hr class="mt-2 mb-5">
+
+        <div class="row text-center text-lg-left">
+
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664105543.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664079984.jpg"
+                         alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664081072.jpg"
+                         alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664093722.jpg"
+                         alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664083422.jpg"
+                         alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664084696.jpg"
+                         alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664104308.jpg"
+                         alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664086959.jpg"
+                         alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664087990.jpg"
+                         alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664089170.jpg"
+                         alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664092604.jpg"
+                         alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664091453.jpg"
+                         alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664094840.jpg"
+                         alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664095994.jpg"
+                         alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664097282.jpg"
+                         alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664098545.jpg"
+                         alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664099828.jpg"
+                         alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664101046.jpg"
+                         alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664102079.jpg"
+                         alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <div class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../static/images/1588664103226.jpg"
+                         alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
