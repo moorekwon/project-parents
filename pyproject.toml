@@ -6,7 +6,7 @@ authors = ["Hyojin Kwon <raccoonhj33@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-django = "^3.0.6"
+django = "^3.0.12"
 gunicorn = "^20.0.4"
 supervisor = "^4.2.0"
 
